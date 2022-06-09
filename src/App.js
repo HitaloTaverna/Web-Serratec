@@ -7,8 +7,8 @@ import TerceiroComponente from './components/TerceiroComponete';
 const App = () => {
   return (
   <>
-  <PrimeiroComponente/>
-  <SegundoComponente/>
+  {/* <PrimeiroComponente/>
+  <SegundoComponente/> */}
   <TerceiroComponente/>
   </>
   );
