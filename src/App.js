@@ -1,16 +1,24 @@
-
-import './App.css';
-import PrimeiroComponente from './components/PrimeiroComponente';
-import SegundoComponente from './components/SegundoComponente';
-import TerceiroComponente from './components/TerceiroComponete';
-
+import "./App.css"
+import Contador from "./components/Contador";
+import InputControlado from "./components/InputControlado";
+// import Estado from "./components/Estado";
+// import TerceiroComponente from "./components/TerceiroComponete";
+// import Propriedades from "./components/Propriedades";
 const App = () => {
-  return (
-  <>
-  {/* <PrimeiroComponente/>
-  <SegundoComponente/> */}
-  <TerceiroComponente/>
-  </>
+  let nome = "Hítalo"
+  return(
+    <div className="App">
+     <>
+  {/*
+  <PrimeiroComponente/>
+  <SegundoComponente/>  
+  <TerceiroComponente/> 
+   <Estado /> 
+<Propriedades name={nome} idade={31} />
+<Contador meuNome={nome}/>*/}
+<InputControlado/>
+  </> 
+    </div>
   );
 }
 
