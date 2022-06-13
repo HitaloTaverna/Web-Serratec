@@ -1,5 +1,7 @@
 import "./App.css"
-import Cadastro from "./components/Cadastro";
+import ToDoList from "./components/toDoList";
+
+// import Cadastro from "./components/Cadastro";
 //import Calculadora from "./components/Calculadora";
 // import Contador from "./components/Contador";
 // import Estado from "./components/Estado";
@@ -12,16 +14,16 @@ const App = () => {
   return(
     <div className="App">
      <>
-     
-     <Cadastro/>
 
-  {/*<Contador meuNome={nome}/>
-     <Estado /> 
-     <InputControlado/>
-     <PrimeiroComponente/>
-     <Propriedades name={nome} idade={31} />
-  <SegundoComponente/>
-  <Calculadora/> */}
+     <ToDoList/>
+    {/*<Cadastro/>*/}
+    {/* <Calculadora/> */}
+    {/* <Contador meuNome={nome}/> */}
+    {/* <Estado />  */}
+    {/* <InputControlado/> */}
+    {/* <PrimeiroComponente/> */}
+    {/* <Propriedades name={nome} idade={31} /> */}
+    {/* <SegundoComponente/> */}
   </> 
     </div>
   );

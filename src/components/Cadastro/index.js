@@ -41,7 +41,7 @@ const Cadastro = () => {
             <br/>
             <label>
                 Cidade:
-                <input type="text" placeholder="Digite sua idade" value={cidade} onChange={(e) => { setCidade(e.target.value)}}/>
+                <input type="text" placeholder="Digite sua cidade" value={cidade} onChange={(e) => { setCidade(e.target.value)}}/>
             </label>
             <br/>
             <input type="button" value="CADASTRAR" onClick={handleCadastro}/>
