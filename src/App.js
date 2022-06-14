@@ -1,6 +1,5 @@
 import "./App.css"
-import ToDoList from "./components/toDoList";
-
+//import ToDoList from "./components/toDoList";
 // import Cadastro from "./components/Cadastro";
 //import Calculadora from "./components/Calculadora";
 // import Contador from "./components/Contador";
@@ -15,7 +14,7 @@ const App = () => {
     <div className="App">
      <>
 
-     <ToDoList/>
+     {/* <ToDoList/> */}
     {/*<Cadastro/>*/}
     {/* <Calculadora/> */}
     {/* <Contador meuNome={nome}/> */}

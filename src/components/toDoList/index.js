@@ -14,6 +14,10 @@ const ToDoList = () => {
     const apagarTarefas = () => {
         setTarefas([])   
     }
+    // const apagarTarefas = () => {
+    //     const novoArray = tarefas.filter((item, index) => index !== tarefas.length - 1 )
+    //     setTarefas(novoArray);
+    //} 
         
     useEffect(() => {
         console.log(tarefas);
